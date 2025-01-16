@@ -1,0 +1,191 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Makanan"
+    },
+    {
+      "id": 2,
+      "name": "Minuman"
+    },
+    {
+      "id": 3,
+      "name": "Lainnya"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "P0001",
+      "name": "Nasi Goreng",
+      "price": 15000,
+      "is_ready": true,
+      "image": "nasi-goreng.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "code": "P0002",
+      "name": "Ayam Goreng",
+      "price": 20000,
+      "is_ready": true,
+      "image": "ayam-goreng.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "code": "P0003",
+      "name": "Es Jeruk",
+      "price": 10000,
+      "is_ready": true,
+      "image": "es-jeruk.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 4,
+      "code": "P0004",
+      "name": "Es Campur",
+      "price": 15000,
+      "is_ready": true,
+      "image": "es-campur.jpg",
+      "category_id": 2
+    },
+    {
+      "id": 5,
+      "code": "P0005",
+      "name": "Ayam Bakar",
+      "price": 20000,
+      "is_ready": true,
+      "image": "ayam-bakar.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "code": "P0006",
+      "name": "Sate Ayam",
+      "price": 25000,
+      "is_ready": true,
+      "image": "sate-ayam.jpg",
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "code": "P0007",
+      "name": "Kentang goreng",
+      "price": 10000,
+      "is_ready": true,
+      "image": "kentang-goreng.jpg",
+      "category_id": 3
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "date": "2024-01-12T04:42:20.547Z",
+      "total": "75000",
+      "detail[0][qty]": "1",
+      "detail[0][price]": "15000",
+      "detail[0][name]": "Nasi Goreng",
+      "detail[0][totalPrice]": "15000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "1",
+      "detail[0][id]": "1",
+      "detail[1][qty]": "1",
+      "detail[1][price]": "20000",
+      "detail[1][name]": "Ayam Goreng",
+      "detail[1][totalPrice]": "20000",
+      "detail[1][note]": "",
+      "detail[1][productId]": "2",
+      "detail[1][id]": "2",
+      "detail[2][qty]": "2",
+      "detail[2][price]": "20000",
+      "detail[2][name]": "Ayam Bakar",
+      "detail[2][totalPrice]": "40000",
+      "detail[2][note]": "",
+      "detail[2][productId]": "5",
+      "detail[2][id]": "3",
+      "id": 1
+    },
+    {
+      "date": "2024-01-12T04:42:59.048Z",
+      "total": "55000",
+      "detail[0][qty]": "1",
+      "detail[0][price]": "15000",
+      "detail[0][name]": "Nasi Goreng",
+      "detail[0][totalPrice]": "15000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "1",
+      "detail[0][id]": "1",
+      "detail[1][qty]": "1",
+      "detail[1][price]": "20000",
+      "detail[1][name]": "Ayam Goreng",
+      "detail[1][totalPrice]": "20000",
+      "detail[1][note]": "",
+      "detail[1][productId]": "2",
+      "detail[1][id]": "2",
+      "detail[2][qty]": "2",
+      "detail[2][price]": "10000",
+      "detail[2][name]": "Es Jeruk",
+      "detail[2][totalPrice]": "20000",
+      "detail[2][note]": "",
+      "detail[2][productId]": "3",
+      "detail[2][id]": "3",
+      "id": 2
+    },
+    {
+      "date": "2024-01-12T04:43:08.303Z",
+      "total": "35000",
+      "detail[0][qty]": "1",
+      "detail[0][price]": "10000",
+      "detail[0][name]": "Es Jeruk",
+      "detail[0][totalPrice]": "10000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "3",
+      "detail[0][id]": "1",
+      "detail[1][qty]": "1",
+      "detail[1][price]": "25000",
+      "detail[1][name]": "Sate Ayam",
+      "detail[1][totalPrice]": "25000",
+      "detail[1][note]": "",
+      "detail[1][productId]": "6",
+      "detail[1][id]": "2",
+      "id": 3
+    },
+    {
+      "date": "2025-01-16T07:22:34.398Z",
+      "total": "10000",
+      "detail[0][qty]": "1",
+      "detail[0][price]": "10000",
+      "detail[0][name]": "Kentang goreng",
+      "detail[0][totalPrice]": "10000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "7",
+      "detail[0][id]": "7",
+      "id": 4
+    },
+    {
+      "date": "2025-01-16T07:32:59.327Z",
+      "total": "15000",
+      "detail[0][qty]": "1",
+      "detail[0][price]": "15000",
+      "detail[0][name]": "Nasi Goreng",
+      "detail[0][totalPrice]": "15000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "1",
+      "detail[0][id]": "1",
+      "id": 5
+    },
+    {
+      "date": "2025-01-16T10:14:23.469Z",
+      "total": "20000",
+      "detail[0][qty]": "1",
+      "detail[0][price]": "20000",
+      "detail[0][name]": "Ayam Goreng",
+      "detail[0][totalPrice]": "20000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "2",
+      "detail[0][id]": "1",
+      "id": 6
+    }
+  ]
+}
