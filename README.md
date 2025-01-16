@@ -1,1 +1,1 @@
-# kasir
+# KASIR-APP
